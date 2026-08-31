@@ -1,0 +1,28 @@
+# macOS 系统文件（本人用的macos，所以先写了这一条）
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 编辑器配置（VS Code / Vim / Sublime）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件（含敏感信息）
+.env
+.env.local
+.env.*.local
